@@ -1,8 +1,8 @@
 {
   "brands": [
     {
-      "id": 1,
-      "name": "Opel"
+      "name": "Opel",
+      "id": 1
     },
     {
       "id": 2,
@@ -21,178 +21,176 @@
       "name": "Audi"
     }
   ],
-
   "models": [
-      {
+    {
+      "id": 1,
+      "brandId": 1,
+      "name": "Crossland",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1200,
+      "brand": {
         "id": 1,
-        "brandId": 1,
-        "name": "Crossland",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1200,
-        "brand": {
-          "id": 1,
-          "name": "Opel"
-        }
-      },
-      {
-        "id": 2,
-        "brandId": 1,
-        "name": "Grandland LX",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1400,
-        "brand": {
-          "id": 1,
-          "name": "Opel"
-        }
-      },
-      {
-        "id": 3,
-        "brandId": 1,
-        "name": "Insignia",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1500,
-        "brand": {
-          "id": 1,
-          "name": "Opel"
-        }
-      },
-      {
-        "id": 4,
-        "brandId": 1,
-        "name": "Astra",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1600,
-        "brand": {
-          "id": 1,
-          "name": "Opel"
-        }
-      },
-      {
-        "id": 5,
-        "brandId": 1,
-        "name": "Mokka",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1800,
-        "brand": {
-          "id": 1,
-          "name": "Opel"
-        }
-      },
-      {
-        "id": 6,
-        "brandId": 2,
-        "name": "Tourneo Courier",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1000,
-        "brand": {
-          "id": 2,
-          "name": "Ford"
-        }
-      },
-      {
-        "id": 7,
-        "brandId": 2,
-        "name": "Focus",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1290,
-        "brand": {
-          "id": 2,
-          "name": "Ford"
-        }
-      },
-      {
-        "id": 8,
-        "brandId": 3,
-        "name": "Yaris",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1000,
-        "brand": {
-          "id": 3,
-          "name": "Totoya"
-        }
-      },
-      {
-        "id": 9,
-        "brandId": 3,
-        "name": "Hilux 4X4",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1100,
-        "brand": {
-          "id": 3,
-          "name": "Totoya"
-        }
-      },
-      {
-        "id": 10,
-        "brandId": 4,
-        "name": "3.20i",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1400,
-        "brand": {
-          "id": 4,
-          "name": "BMW"
-        }
-      },
-      {
-        "id": 11,
-        "brandId": 4,
-        "name": "5.25X",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1900,
-        "brand": {
-          "id": 4,
-          "name": "BMW"
-        }
-      },
-      {
-        "id": 12,
-        "brandId": 4,
-        "name": "5.20 Luxury Line",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1600,
-        "brand": {
-          "id": 4,
-          "name": "BMW"
-        }
-      },
-      {
-        "id": 13,
-        "brandId": 4,
-        "name": "IX Electric",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 1500,
-        "brand": {
-          "id": 4,
-          "name": "BMW"
-        }
-      },
-      {
-        "id": 14,
-        "brandId": 5,
-        "name": "A3 Sedan",
-        "modelYear": 2020,
-        "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
-        "dailyPrice": 2200,
-        "brand": {
-          "id": 5,
-          "name": "Audi"
-        }
+        "name": "Opel"
       }
+    },
+    {
+      "id": 2,
+      "brandId": 1,
+      "name": "Grandland LX",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1400,
+      "brand": {
+        "id": 1,
+        "name": "Opel"
+      }
+    },
+    {
+      "id": 3,
+      "brandId": 1,
+      "name": "Insignia",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1500,
+      "brand": {
+        "id": 1,
+        "name": "Opel"
+      }
+    },
+    {
+      "id": 4,
+      "brandId": 1,
+      "name": "Astra",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1600,
+      "brand": {
+        "id": 1,
+        "name": "Opel"
+      }
+    },
+    {
+      "id": 5,
+      "brandId": 1,
+      "name": "Mokka",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1800,
+      "brand": {
+        "id": 1,
+        "name": "Opel"
+      }
+    },
+    {
+      "id": 6,
+      "brandId": 2,
+      "name": "Tourneo Courier",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1000,
+      "brand": {
+        "id": 2,
+        "name": "Ford"
+      }
+    },
+    {
+      "id": 7,
+      "brandId": 2,
+      "name": "Focus",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1290,
+      "brand": {
+        "id": 2,
+        "name": "Ford"
+      }
+    },
+    {
+      "id": 8,
+      "brandId": 3,
+      "name": "Yaris",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1000,
+      "brand": {
+        "id": 3,
+        "name": "Totoya"
+      }
+    },
+    {
+      "id": 9,
+      "brandId": 3,
+      "name": "Hilux 4X4",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1100,
+      "brand": {
+        "id": 3,
+        "name": "Totoya"
+      }
+    },
+    {
+      "id": 10,
+      "brandId": 4,
+      "name": "3.20i",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1400,
+      "brand": {
+        "id": 4,
+        "name": "BMW"
+      }
+    },
+    {
+      "id": 11,
+      "brandId": 4,
+      "name": "5.25X",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1900,
+      "brand": {
+        "id": 4,
+        "name": "BMW"
+      }
+    },
+    {
+      "id": 12,
+      "brandId": 4,
+      "name": "5.20 Luxury Line",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1600,
+      "brand": {
+        "id": 4,
+        "name": "BMW"
+      }
+    },
+    {
+      "id": 13,
+      "brandId": 4,
+      "name": "IX Electric",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 1500,
+      "brand": {
+        "id": 4,
+        "name": "BMW"
+      }
+    },
+    {
+      "id": 14,
+      "brandId": 5,
+      "name": "A3 Sedan",
+      "modelYear": 2020,
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": 2200,
+      "brand": {
+        "id": 5,
+        "name": "Audi"
+      }
+    }
   ],
-
   "cars": [
     {
       "id": 1,
@@ -447,7 +445,36 @@
       }
     }
   ],
+  "customers":[
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "Anystate",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Mert",
+      "lastName": "Erdogan",
+      "email": "mert.erd@example.com",
+      "phone": "+0987654321",
+      "address": {
+        "street": "321 Main St",
+        "city": "Anytown yeap",
+        "state": "Anystate yeap",
+        "zip": "54321"
+      }
+    }
+    
 
+  ],
   "users": [
     {
       "id": 1,
@@ -455,24 +482,66 @@
       "password": "admin"
     },
     {
-      "userName": "test",
-      "password": "test",
+      "userName": "mert",
+      "password": "gokhan",
       "id": 2
     }
   ],
-
   "roles": [
     {
       "id": 1,
       "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    
     }
   ],
-
   "userRoles": [
     {
       "id": 1,
       "userId": 1,
       "roleId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "roleId": 2
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "carId": 1,
+      "customer": {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890"
+      },
+      "car":  {
+        "id": 1,
+        "modelId": 1,
+        "plate": "34oc26",
+        "state": 1,
+        "model": {
+          "id": 1,
+          "brandId": 1,
+          "name": "Crossland",
+          "modelYear": 2020,
+          "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+          "dailyPrice": 1200,
+          "brand": {
+            "id": 1,
+            "name": "Opel"
+          }
+        }
+      },
+      "rentalDate": "2024-01-01",
+      "returnDate": "2024-01-07"
     }
   ]
 }
