@@ -10,7 +10,7 @@
     },
     {
       "id": 3,
-      "name": "Totoya"
+      "name": "Toyota"
     },
     {
       "id": 4,
@@ -19,6 +19,10 @@
     {
       "id": 5,
       "name": "Audi"
+    },
+    {
+      "name": "Togg",
+      "id": 6
     }
   ],
   "models": [
@@ -115,7 +119,7 @@
       "dailyPrice": 1000,
       "brand": {
         "id": 3,
-        "name": "Totoya"
+        "name": "Toyota"
       }
     },
     {
@@ -127,7 +131,7 @@
       "dailyPrice": 1100,
       "brand": {
         "id": 3,
-        "name": "Totoya"
+        "name": "Toyota"
       }
     },
     {
@@ -189,6 +193,14 @@
         "id": 5,
         "name": "Audi"
       }
+    },
+    {
+      "brandId": "6",
+      "name": "Togg",
+      "modelYear": "2022",
+      "imageUrl": "https://raw.githubusercontent.com/ahmet-cetinkaya-instruction/rent-a-car-fake-backend/master/src/data/car-953357_1280.png",
+      "dailyPrice": "2000",
+      "id": 15
     }
   ],
   "cars": [
@@ -332,7 +344,7 @@
         "dailyPrice": 1000,
         "brand": {
           "id": 3,
-          "name": "Totoya"
+          "name": "Toyota"
         }
       }
     },
@@ -350,7 +362,7 @@
         "dailyPrice": 1100,
         "brand": {
           "id": 3,
-          "name": "Totoya"
+          "name": "Toyota"
         }
       }
     },
@@ -445,7 +457,7 @@
       }
     }
   ],
-  "customers":[
+  "customers": [
     {
       "id": 1,
       "firstName": "John",
@@ -472,8 +484,6 @@
         "zip": "54321"
       }
     }
-    
-
   ],
   "users": [
     {
@@ -495,7 +505,6 @@
     {
       "id": 2,
       "name": "user"
-    
     }
   ],
   "userRoles": [
@@ -522,7 +531,7 @@
         "email": "john.doe@example.com",
         "phone": "+1234567890"
       },
-      "car":  {
+      "car": {
         "id": 1,
         "modelId": 1,
         "plate": "34oc26",
